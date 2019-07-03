@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">元积分</string>
+    <string name="app_name">园积分</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">广东博媛实业有限公司</string>
-    <string name="nav_header_subtitle">Official address temporarily unavailable</string>
+    <string name="nav_header_title">园积分用户管理台</string>
+    <string name="nav_header_subtitle">YuanScore User Management Platform</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 

@@ -6,8 +6,8 @@ android {
         applicationId "com.weisen.www.code.byh"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 16
-        versionName "1.1.6"
+        versionCode 7
+        versionName "1.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

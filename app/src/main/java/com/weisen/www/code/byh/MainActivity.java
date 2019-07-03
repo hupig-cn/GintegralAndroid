@@ -182,9 +182,8 @@ public class MainActivity extends AppCompatActivity
             }
         }else if (id == R.id.updata){
             getVersion(false);
-        }else if (id == R.id.setting){
-            startSettings();
         }
+//        else if (id == R.id.setting){ startSettings(); }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -320,7 +319,7 @@ public class MainActivity extends AppCompatActivity
         final View view = LayoutInflater.from(MainActivity.this).inflate(R.layout.dialog, null);
         SharedPreferences sp= getSharedPreferences("settings", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
-        editor.putString("server", "192.168.31.124");
+        editor.putString("server", "app.yuanscore.com");
         editor.putString("projectOne", "8081");
         editor.putString("projectTwo", "8082");
         editor.putString("projectThree", "8083");
